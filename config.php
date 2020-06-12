@@ -1,8 +1,8 @@
 <?php
-$servername = "den1.mysql1.gear.host";
-$username = "catchiecartdb2";
-$password = "Da37s-D68U_9";
-$dbase= "catchiecartdb2";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbase= "catchiecartdb";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password,$dbase);
